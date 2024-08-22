@@ -1,0 +1,321 @@
+@font-face {
+    font-family:gilroy;
+    src: url(fonts/RadioCanadaBig-Regular.ttf);
+}
+.root {
+    --primary-color:#000000;
+    --secondary-color: #9E9DA2;
+    --tertiary-color: #FFFFFF;
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: gilroy;
+}
+body{
+    background-color: #f8f3f3;
+}
+.main {
+    width: 1000px;
+    /* width: 1260px; */
+    /* width: 100%; */
+    margin: auto;
+}
+nav .anchors {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+    /* padding: 80px 80px; */
+    padding: 50px 51px;
+}
+nav a {
+    text-decoration: none;
+     color: #000000;
+}
+#btn-help-center {
+    width: 127px;
+    height: 27px;
+    font-weight: 500;
+    border-radius: 5.95px;
+    background-color:transparent;
+    border: none;
+    background-color: #75BF7A;
+   color: #FFFFFF;
+}
+/*======================= bannersection ===================================*/
+.bannerSection {
+    /* height: calc(100vh - 187px); */
+    height: calc(100vh - 147px);
+    /* height: 100vh; */
+    display: flex;
+}
+.bannerSection .col1 {
+  flex: 8;
+}
+.bannerSection .col2 {
+   flex: 5;
+}
+.bannerSection .col1 h3 {
+    font-size: 50px;
+    line-height: 65px;
+}
+.bannerSection .col1 p {
+    color:#9E9DA2;
+    line-height: 28px;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.bannerSection .col1 button {
+    width: 180px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 20px;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+} 
+.bannerSection .col1  img {
+    width: 30px;
+    height: 20px;
+}
+.bannerSection .col2 img {
+    width: 350px;
+}
+/* <!-- //=====================border section======================================--> */
+.border-Section1  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80PX;
+    margin-bottom: 20px;
+    height: 80px;
+    background-color: #75BF7A;
+}
+ .input-container {
+    width: 300px;
+   height: 30px;
+   padding: 0px 20px;
+   border-radius: 7px;
+   border: none;
+   color: #DADADA;
+ }
+ button {
+    width:160px;
+    height: 50px;
+    font-size: 15px;
+    border: none;
+    background-color:#000000;
+    color: #FFFFFF;
+    border-radius:7px;
+ }
+ .P1{
+    color: #FFFFFF;
+ }
+
+ .image {
+    text-align: center;
+    margin-top: 80px;
+    line-height: 50px;
+ }
+ .image p {
+    width: 600px;
+    height: 90px;
+    margin-left: 200px;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    justify-content: center;
+    color: #9E9DA2;
+ }
+
+    /*==================== how to section =========================*/
+  .howToSection {
+    display: flex;
+    gap: 30px;
+    padding: 100px 0;
+    line-height: 26px;
+    font-size: 20px;
+ }
+ .howToSection p {
+  color: #9E9DA2;
+ }
+ .howToSection .col1 {
+    flex: 100;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: right;
+ }
+ .howToSection .col1 img {
+    width: 60px;
+    height: 60px;
+ }
+ .howToSection .col1 .box1 {
+   display: flex;
+   flex-direction: column;
+   gap: 20px;
+   align-items: flex-end;
+ }
+
+ .howToSection .col1 .box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-end;
+  }
+ .howToSection .col2 {
+    flex: 80;
+ }
+ .howToSection .col3 {
+     flex: 100;
+     display: flex;
+     flex-direction: column;
+     gap: 40px;
+    text-align: left;
+ } 
+ .howToSection .col3 .box1 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ .howToSection .col3  img {
+    width: 60px;
+    height: 60px;
+ }
+ .howToSection .col3 .box2 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+
+    /*============================= cards section ===============================*/
+    /*1st section*/
+    .image1 {
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    .section .cardSection1  {
+        width: 60%;
+        height: 300px;
+        margin: auto;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 50px  ;
+        padding-left: 20px;
+        border-radius: 10px;
+        margin-bottom: 35px;
+    }
+    
+    .section .cardSection1 .col1 .textContainer .heading .num {
+        font-size: 80px;
+        color: #75BF7A;
+        left: -5px;
+    }
+    .section .cardSection1 .col1 .textContainer .heading {
+        display: flex;
+         gap: 20px;
+         position: relative;
+         align-items: center;
+    }
+    .section .cardSection1 .col1 .textContainer .heading .text {
+        width: 218px;
+        height: 65px;
+        font-size: 33px;
+        line-height: 32px;
+        font-weight: 600;
+        position: absolute;
+        margin-left: 60px;
+    }
+    .section .cardSection1 .col1 .textContainer .para {
+        width: 300px;
+       height: 47px;
+       font-size: 17px;
+       color: #9E9DA2;
+       line-height: 26px;
+    }
+    /*2nd section*/
+    .section .cardSection2 {
+        width: 60%;
+        height: 300px;
+        margin: auto;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding:  0 50px ;
+        padding-left: 20px;
+        border-radius: 10px;
+        margin-bottom: 35px;
+    }
+    .section .cardSection2 .col2 .textContainer .heading .num {
+        font-size: 80px;
+        color: #75BF7A;
+        left: -5px;
+    }
+    .section .cardSection2 .col2 .textContainer .heading {
+        display: flex;
+    }
+    .section .cardSection2 .col2 .textContainer .heading .text {
+        margin-top: 12px;
+       font-size: 33px;
+    }
+    .section .cardSection2 .col2 .textContainer .para {
+        width: 300px;
+       height: 47px;
+       font-size: 17px;
+       color: #9E9DA2;
+       line-height: 26px;
+    }
+    /* 3rd section */
+    .section .cardSection3 {
+        width:60%;
+        height: 300px;
+        margin: auto;
+        background-color: #FFFFFF;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        padding:  0 50px ;
+        padding-left: 20px;
+        border-radius: 10px;
+        margin-bottom: 35px;
+    }
+    
+    .section .cardSection3 .col1 .textContainer .heading .num {
+        font-size: 80px;
+        color: #75BF7A;
+    }
+    .section .cardSection3 .col1 .textContainer .heading {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+    .section .cardSection3 .col1 .textContainer .heading .text {
+        width: 203px;
+        height: 65px;
+        font-size: 33px;
+        font-weight: 500px;
+        line-height: 32px;
+    }
+    .section .cardSection3 .col1 .textContainer .para {
+        width: 450px;
+        height: 47px;
+        font-size: 17px;
+        line-height: 26px;
+        color: #9E9DA2;
+    }
+
+
+    
+
+    
